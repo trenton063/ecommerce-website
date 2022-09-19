@@ -3,3 +3,36 @@
   margin-left: 1.5em;
 }
 
+.bar {
+  background-color: blue;
+  width: 100%;
+  height: 2em;
+}
+
+.departments {
+  height: 1.6em;
+  position: absolute;
+  left: 2.5em;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.departments:hover {
+  background-color: yellow;
+}
+
+.phone-number {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 3em;
+  font-size: 20px;
+  height: 1.6em;
+  cursor: pointer;
+}
+
+.phone-number:hover {
+  background-color: yellow;
+}
